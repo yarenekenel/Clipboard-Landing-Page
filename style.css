@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow-x: hidden;
+}
+h1, h2, h3 {
+    font-weight: 600;
+}
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    border-radius: 3rem;
+    color:hsl(0,0%,100%);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin: 0 0.5rem;
+    box-shadow: 0 0.5rem 1rem hsla(210,10%, 33%, 0.2);
+}
+.btn:hover {
+        opacity: 0.9;
+    }
+
+.btn--ios{
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 4px solid hsl(171, 66%, 34%);
+}
+
+.btn--mac{
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 4px solid hsl(233, 100%, 59%);
+}
+
+.workflow__icon {
+    width: 4rem;
+    margin: 0 auto 1.5rem;
+}
+.trusted__logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.trusted__logos img{
+    height: 2rem;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.footer__social img {
+    width: 1.5rem;
+}
+
+.footer__links a:hover {
+    color: hsl(171, 66%, 44%);
+}
+.footer__social a:hover img {
+    opacity: 0.7;
+}
+@media (min-width: 768px) {
+    .snippets__content {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        text-align: left;
+    }
+
+    .snippets__image {
+        flex: 1;
+    }
+
+    .features {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+    .workflow__items {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        text-align: left;
+    }
+    .site-header,
+    main > section,
+    .site-footer {
+        background-color: hsl(240, 10%, 97%);
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .workflow__item {
+        flex: 1;
+    }
+
+        .feature img,
+        .workflow__icon {
+            margin-left: 0;
+        }
+
+    .site-footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .footer__links {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(2, auto);
+        column-gap: 3rem;
+        row-gap: 0.75rem;
+        text-align: left;
+    }
+
+    .footer__social {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .attribution {
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .hero {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .snippets {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .access {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .workflow {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .trusted {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .download {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .site-footer .logo {
+        width: 2.5rem;
+    }
+
+.snippets {
+    padding-left: 0;
+}
